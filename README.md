@@ -1,5 +1,13 @@
 # passport-local
 
+# Fixate Changes:
+
+- Allow defining multiple valid username fields
+
+```javascript
+options.usernameFields = ['username', 'user[email]', 'email'];
+```
+
 [![Build](https://travis-ci.org/jaredhanson/passport-local.png)](https://travis-ci.org/jaredhanson/passport-local)
 [![Coverage](https://coveralls.io/repos/jaredhanson/passport-local/badge.png)](https://coveralls.io/r/jaredhanson/passport-local)
 [![Quality](https://codeclimate.com/github/jaredhanson/passport-local.png)](https://codeclimate.com/github/jaredhanson/passport-local)
